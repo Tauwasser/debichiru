@@ -28,7 +28,7 @@ compare: $(roms)
 %.asm: ;
 
 %.gbc : $(debichiru_obj)
-	rgblink -n $(basename $@).sym -m $(basename $@).map -p 0xFF -o $@ $^
+	rgblink -n $(basename $@).sym -m $(basename $@).map -p 0x00 -o $@ $^
 
 $(debichiru_obj): %.o : %.asm
 	rgbasm -h $($(basename $(notdir $@))_FLAGS) -o $@ $<

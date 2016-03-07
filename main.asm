@@ -487,25 +487,8 @@ SECTION "bank79",DATA,BANK[$79]
 INCBIN "baserom.gbc",$1E4000,$4000
 
 SECTION "bank7A",DATA,BANK[$7A]
-
-INCBIN "baserom.gbc",$1E8000,$4000
-
 SECTION "bank7B",DATA,BANK[$7B]
-
-INCBIN "baserom.gbc",$1EC000,$4000
-
 SECTION "bank7C",DATA,BANK[$7C]
-
-INCBIN "baserom.gbc",$1F0000,$4000
-
 SECTION "bank7D",DATA,BANK[$7D]
-
-INCBIN "baserom.gbc",$1F4000,$4000
-
 SECTION "bank7E",DATA,BANK[$7E]
-
-INCBIN "baserom.gbc",$1F8000,$4000
-
 SECTION "bank7F",DATA,BANK[$7F]
-
-INCBIN "baserom.gbc",$1FC000,$4000
