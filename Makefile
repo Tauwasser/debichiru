@@ -16,7 +16,9 @@ rwildcard = $(foreach d, $(wildcard $1*), $(filter $(subst *, %, $2), $d) $(call
 
 DIRS := home engine data audio
 OBJS := \
-	main.o
+	main.o \
+	hram.o \
+	wram.o
 
 OBJS += $(patsubst %.asm, %.o, $(call rwildcard, $(DIRS), *.asm))
 
