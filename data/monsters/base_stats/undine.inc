@@ -1,11 +1,12 @@
 db "ウィンディーネ＃"
-db $04
-db $0C
-dw $007A
-dw $0038
+db $04 ; Class | Race
+db $0C ; Level
+dw $007A ; HP
+dw $0038 ; MP
 db $0B, $09, $0D, $0C, $0D, $0B
-db $0F, $0C, $0E
-db $2B
-dw $003E
-db $03, $4A, $1F, $2C, $04, $05
-db $18, $00, $07, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $0F, $0C, $0E ; ?
+db $2B ; ??? | Element
+dw $003E ; EXP
+db $03, $4A, $1F, $2C, $04, $05 ; Moves
+db $18, $00, $07, $00 ; ?

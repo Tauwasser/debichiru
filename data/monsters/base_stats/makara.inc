@@ -1,11 +1,12 @@
 db "マカラ＃＃＃＃＃"
-db $05
-db $0B
-dw $006F
-dw $002F
+db $05 ; Class | Race
+db $0B ; Level
+dw $006F ; HP
+dw $002F ; MP
 db $0C, $0A, $0B, $0B, $0A, $08
-db $0E, $0B, $0D
-db $23
-dw $0030
-db $03, $13, $23, $1F, $2A, $04
-db $15, $00, $06, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $0E, $0B, $0D ; ?
+db $23 ; ??? | Element
+dw $0030 ; EXP
+db $03, $13, $23, $1F, $2A, $04 ; Moves
+db $15, $00, $06, $00 ; ?

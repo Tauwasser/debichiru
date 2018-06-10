@@ -1,11 +1,12 @@
 db "パイモン＃＃＃＃"
-db $28
-db $16
-dw $00EE
-dw $006C
+db $28 ; Class | Race
+db $16 ; Level
+dw $00EE ; HP
+dw $006C ; MP
 db $15, $13, $14, $13, $13, $12
-db $1B, $16, $1C
-db $2D
-dw $00DB
-db $0A, $3D, $0F, $25, $2C, $0B
-db $42, $00, $0C, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $1B, $16, $1C ; ?
+db $2D ; ??? | Element
+dw $00DB ; EXP
+db $0A, $3D, $0F, $25, $2C, $0B ; Moves
+db $42, $00, $0C, $00 ; ?

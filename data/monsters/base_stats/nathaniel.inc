@@ -1,11 +1,12 @@
 db "ナタナエル＃＃＃"
-db $22
-db $20
-dw $0152
-dw $0098
+db $22 ; Class | Race
+db $20 ; Level
+dw $0152 ; HP
+dw $0098 ; MP
 db $19, $1B, $1D, $1E, $19, $1A
-db $26, $19, $22
-db $10
-dw $01AC
-db $70, $AB, $AA, $A9, $A8, $A7
-db $86, $00, $11, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $26, $19, $22 ; ?
+db $10 ; ??? | Element
+dw $01AC ; EXP
+db $70, $AB, $AA, $A9, $A8, $A7 ; Moves
+db $86, $00, $11, $00 ; ?

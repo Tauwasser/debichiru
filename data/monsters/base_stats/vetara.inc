@@ -1,11 +1,12 @@
 db "ヴェータラ＃＃＃"
-db $04
-db $04
-dw $0039
-dw $0018
+db $04 ; Class | Race
+db $04 ; Level
+dw $0039 ; HP
+dw $0018 ; MP
 db $08, $07, $07, $07, $09, $07
-db $06, $04, $05
-db $3E
-dw $0008
-db $0C, $58, $12, $23, $00, $0D
-db $08, $00, $03, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $06, $04, $05 ; ?
+db $3E ; ??? | Element
+dw $0008 ; EXP
+db $0C, $58, $12, $23, $00, $0D ; Moves
+db $08, $00, $03, $00 ; ?

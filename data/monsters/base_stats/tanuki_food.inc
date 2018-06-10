@@ -3,13 +3,14 @@ IF DEF(KURO) || DEF(AKA)
 ELSE
 	db "タヌキのナマモノ"
 ENDC
-db $20
-db $2A
-dw $01AE
-dw $00BE
+db $20 ; Class | Race
+db $2A ; Level
+dw $01AE ; HP
+dw $00BE ; MP
 db $24, $23, $28, $23, $25, $28
-db $33, $2A, $2C
-db $18
-dw $02E0
-db $0A, $56, $6F, $32, $21, $0B
-db $E1, $00, $1D, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $33, $2A, $2C ; ?
+db $18 ; ??? | Element
+dw $02E0 ; EXP
+db $0A, $56, $6F, $32, $21, $0B ; Moves
+db $E1, $00, $1D, $00 ; ?

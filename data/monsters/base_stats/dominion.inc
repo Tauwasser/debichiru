@@ -1,11 +1,12 @@
 db "ドミニオン＃＃＃"
-db $22
-db $24
-dw $017A
-dw $00A7
+db $22 ; Class | Race
+db $24 ; Level
+dw $017A ; HP
+dw $00A7 ; MP
 db $23, $1D, $1E, $1E, $20, $1E
-db $2C, $24, $28
-db $18
-dw $021D
-db $0A, $0B, $32, $20, $2B, $21
-db $A8, $00, $13, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $2C, $24, $28 ; ?
+db $18 ; ??? | Element
+dw $021D ; EXP
+db $0A, $0B, $32, $20, $2B, $21 ; Moves
+db $A8, $00, $13, $00 ; ?

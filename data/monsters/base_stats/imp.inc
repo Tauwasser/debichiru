@@ -1,11 +1,12 @@
 db "インプ＃＃＃＃＃"
-db $01
-db $05
-dw $0045
-dw $001E
+db $01 ; Class | Race
+db $05 ; Level
+dw $0045 ; HP
+dw $001E ; MP
 db $06, $08, $09, $07, $07, $0C
-db $07, $05, $07
-db $39
-dw $000F
-db $1B, $09, $12, $0A, $B1, $0B
-db $09, $00, $03, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $07, $05, $07 ; ?
+db $39 ; ??? | Element
+dw $000F ; EXP
+db $1B, $09, $12, $0A, $B1, $0B ; Moves
+db $09, $00, $03, $00 ; ?

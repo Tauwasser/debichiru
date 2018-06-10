@@ -1,11 +1,12 @@
 db "ヘルフェニックス"
-db $29
-db $1E
-dw $013D
-dw $008F
+db $29 ; Class | Race
+db $1E ; Level
+dw $013D ; HP
+dw $008F ; MP
 db $1F, $1E, $1A, $19, $19, $14
-db $24, $1E, $20
-db $2C
-dw $017A
-db $4F, $1A, $1F, $08, $1E, $21
-db $76, $00, $10, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $24, $1E, $20 ; ?
+db $2C ; ??? | Element
+dw $017A ; EXP
+db $4F, $1A, $1F, $08, $1E, $21 ; Moves
+db $76, $00, $10, $00 ; ?

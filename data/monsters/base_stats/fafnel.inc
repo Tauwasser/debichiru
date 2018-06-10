@@ -1,11 +1,12 @@
 db "ファフニール＃＃"
-db $25
-db $11
-dw $00B6
-dw $0043
+db $25 ; Class | Race
+db $11 ; Level
+dw $00B6 ; HP
+dw $0043 ; MP
 db $12, $10, $0C, $0F, $0F, $0E
-db $15, $11, $11
-db $12
-dw $007A
-db $01, $43, $33, $14, $2A, $02
-db $2A, $00, $09, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $15, $11, $11 ; ?
+db $12 ; ??? | Element
+dw $007A ; EXP
+db $01, $43, $33, $14, $2A, $02 ; Moves
+db $2A, $00, $09, $00 ; ?

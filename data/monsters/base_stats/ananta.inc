@@ -1,11 +1,12 @@
 db "アナンタ＃＃＃＃"
-db $25
-db $31
-dw $021A
-dw $00DB
+db $25 ; Class | Race
+db $31 ; Level
+dw $021A ; HP
+dw $00DB ; MP
 db $32, $31, $2C, $29, $2B, $2A
-db $3B, $31, $35
-db $0B
-dw $03E0
-db $04, $47, $1F, $21, $2C, $05
-db $27, $01, $28, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $3B, $31, $35 ; ?
+db $0B ; ??? | Element
+dw $03E0 ; EXP
+db $04, $47, $1F, $21, $2C, $05 ; Moves
+db $27, $01, $28, $00 ; ?

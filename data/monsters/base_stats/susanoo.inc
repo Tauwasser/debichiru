@@ -1,11 +1,12 @@
 db "スサノオ＃＃＃＃"
-db $21
-db $2F
-dw $01F4
-dw $00E0
+db $21 ; Class | Race
+db $2F ; Level
+dw $01F4 ; HP
+dw $00E0 ; MP
 db $2D, $2C, $2D, $2B, $29, $29
-db $39, $2F, $33
-db $15
-dw $03B3
-db $0A, $08, $54, $4D, $0B, $7B
-db $13, $01, $24, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $39, $2F, $33 ; ?
+db $15 ; ??? | Element
+dw $03B3 ; EXP
+db $0A, $08, $54, $4D, $0B, $7B ; Moves
+db $13, $01, $24, $00 ; ?

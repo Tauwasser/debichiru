@@ -1,11 +1,12 @@
 db "ヘル＃＃＃＃＃＃"
-db $38
-db $0C
-dw $0084
-dw $003A
+db $38 ; Class | Race
+db $0C ; Level
+dw $0084 ; HP
+dw $003A ; MP
 db $0C, $0B, $0C, $0C, $0A, $0B
-db $0F, $0C, $14
-db $13
-dw $005A
-db $4A, $15, $16, $04, $1F, $05
-db $18, $00, $08, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $0F, $0C, $14 ; ?
+db $13 ; ??? | Element
+dw $005A ; EXP
+db $4A, $15, $16, $04, $1F, $05 ; Moves
+db $18, $00, $08, $00 ; ?

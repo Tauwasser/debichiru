@@ -1,11 +1,12 @@
 db "デモゴルゴン＃＃"
-db $28
-db $1A
-dw $0118
-dw $0075
+db $28 ; Class | Race
+db $1A ; Level
+dw $0118 ; HP
+dw $0075 ; MP
 db $1A, $17, $18, $15, $12, $13
-db $20, $1A, $1B
-db $11
-dw $012B
-db $01, $3C, $3E, $19, $5B, $02
-db $5A, $00, $0E, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $20, $1A, $1B ; ?
+db $11 ; ??? | Element
+dw $012B ; EXP
+db $01, $3C, $3E, $19, $5B, $02 ; Moves
+db $5A, $00, $0E, $00 ; ?

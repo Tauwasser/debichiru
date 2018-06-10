@@ -1,11 +1,12 @@
 db "ドッペルゲンガー"
-db $24
-db $29
-dw $01BD
-dw $00B8
+db $24 ; Class | Race
+db $29 ; Level
+dw $01BD ; HP
+dw $00B8 ; MP
 db $28, $25, $23, $25, $20, $23
-db $32, $29, $29
-db $0D
-dw $02BD
-db $0A, $3C, $15, $10, $07, $0B
-db $D7, $00, $1C, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $32, $29, $29 ; ?
+db $0D ; ??? | Element
+dw $02BD ; EXP
+db $0A, $3C, $15, $10, $07, $0B ; Moves
+db $D7, $00, $1C, $00 ; ?

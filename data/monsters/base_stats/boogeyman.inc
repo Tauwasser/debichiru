@@ -1,11 +1,12 @@
 db "ブギーマン＃＃＃"
-db $33
-db $22
-dw $016F
-dw $009C
+db $33 ; Class | Race
+db $22 ; Level
+dw $016F ; HP
+dw $009C ; MP
 db $23, $1E, $1A, $1C, $1B, $1B
-db $29, $22, $27
-db $36
-dw $01E7
-db $0D, $5C, $3D, $0E, $13, $01
-db $96, $00, $13, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $29, $22, $27 ; ?
+db $36 ; ??? | Element
+dw $01E7 ; EXP
+db $0D, $5C, $3D, $0E, $13, $01 ; Moves
+db $96, $00, $13, $00 ; ?

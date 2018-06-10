@@ -1,11 +1,12 @@
 db "ハート＃＃＃＃＃"
-db $02
-db $29
-dw $01B6
-dw $00C0
+db $02 ; Class | Race
+db $29 ; Level
+dw $01B6 ; HP
+dw $00C0 ; MP
 db $22, $26, $29, $26, $22, $24
-db $31, $26, $2B
-db $0C
-dw $02B7
-db $08, $A0, $6E, $2D, $1C, $AB
-db $D7, $00, $1C, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $31, $26, $2B ; ?
+db $0C ; ??? | Element
+dw $02B7 ; EXP
+db $08, $A0, $6E, $2D, $1C, $AB ; Moves
+db $D7, $00, $1C, $00 ; ?

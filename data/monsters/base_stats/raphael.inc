@@ -1,11 +1,12 @@
 db "ラファエル＃＃＃"
-db $38
-db $24
-dw $0182
-dw $00B1
+db $38 ; Class | Race
+db $24 ; Level
+dw $0182 ; HP
+dw $00B1 ; MP
 db $23, $21, $23, $21, $19, $1B
-db $2C, $24, $28
-db $10
-dw $0231
-db $07, $34, $39, $2C, $1E, $08
-db $A8, $00, $13, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $2C, $24, $28 ; ?
+db $10 ; ??? | Element
+dw $0231 ; EXP
+db $07, $34, $39, $2C, $1E, $08 ; Moves
+db $A8, $00, $13, $00 ; ?

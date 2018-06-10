@@ -1,11 +1,12 @@
 db "ホムンクルス＃＃"
-db $07
-db $0E
-dw $009A
-dw $0047
+db $07 ; Class | Race
+db $0E ; Level
+dw $009A ; HP
+dw $0047 ; MP
 db $0C, $0A, $0C, $0C, $10, $0A
-db $12, $0D, $10
-db $30
-dw $0058
-db $A5, $34, $2C, $33, $1F, $07
-db $1E, $00, $08, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $12, $0D, $10 ; ?
+db $30 ; ??? | Element
+dw $0058 ; EXP
+db $A5, $34, $2C, $33, $1F, $07 ; Moves
+db $1E, $00, $08, $00 ; ?

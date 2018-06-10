@@ -1,11 +1,12 @@
 db "アルテミス＃＃＃"
-db $04
-db $21
-dw $015D
-dw $009C
+db $04 ; Class | Race
+db $21 ; Level
+dw $015D ; HP
+dw $009C ; MP
 db $1D, $1C, $1A, $1C, $1F, $1F
-db $27, $21, $23
-db $29
-dw $01C7
-db $09, $4E, $AE, $07, $18, $08
-db $8E, $00, $11, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $27, $21, $23 ; ?
+db $29 ; ??? | Element
+dw $01C7 ; EXP
+db $09, $4E, $AE, $07, $18, $08 ; Moves
+db $8E, $00, $11, $00 ; ?

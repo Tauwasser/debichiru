@@ -1,11 +1,12 @@
 db "ウリエル＃＃＃＃"
-db $38
-db $24
-dw $0184
-dw $00AD
+db $38 ; Class | Race
+db $24 ; Level
+dw $0184 ; HP
+dw $00AD ; MP
 db $22, $21, $23, $22, $1A, $1A
-db $2C, $24, $28
-db $10
-dw $0232
-db $0D, $35, $90, $0E, $1E, $21
-db $A8, $00, $13, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $2C, $24, $28 ; ?
+db $10 ; ??? | Element
+dw $0232 ; EXP
+db $0D, $35, $90, $0E, $1E, $21 ; Moves
+db $A8, $00, $13, $00 ; ?

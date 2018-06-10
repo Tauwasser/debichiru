@@ -1,11 +1,12 @@
 db "ガルム＃＃＃＃＃"
-db $06
-db $05
-dw $0040
-dw $001A
+db $06 ; Class | Race
+db $05 ; Level
+dw $0040 ; HP
+dw $001A ; MP
 db $08, $07, $06, $07, $07, $07
-db $07, $05, $06
-db $32
-dw $000C
-db $00, $50, $29, $2B, $18, $01
-db $09, $00, $03, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $07, $05, $06 ; ?
+db $32 ; ??? | Element
+dw $000C ; EXP
+db $00, $50, $29, $2B, $18, $01 ; Moves
+db $09, $00, $03, $00 ; ?

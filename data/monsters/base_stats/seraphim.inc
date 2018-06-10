@@ -1,11 +1,12 @@
 db "セラフィム＃＃＃"
-db $12
-db $2D
-dw $01DB
-dw $00DC
+db $12 ; Class | Race
+db $2D ; Level
+dw $01DB ; HP
+dw $00DC ; MP
 db $2B, $28, $2B, $26, $25, $28
-db $36, $2D, $30
-db $08
-dw $0354
-db $35, $2D, $1F, $1E, $2C, $22
-db $FF, $00, $21, $09
+;  Atk  Def  MAtk MDef Init Luck
+db $36, $2D, $30 ; ?
+db $08 ; ??? | Element
+dw $0354 ; EXP
+db $35, $2D, $1F, $1E, $2C, $22 ; Moves
+db $FF, $00, $21, $09 ; ?

@@ -1,11 +1,12 @@
 db "ケルベロス＃＃＃"
-db $09
-db $05
-dw $004C
-dw $001C
+db $09 ; Class | Race
+db $05 ; Level
+dw $004C ; HP
+dw $001C ; MP
 db $0C, $09, $07, $09, $09, $07
-db $07, $05, $07
-db $22
-dw $000F
-db $00, $42, $1D, $1F, $29, $02
-db $09, $00, $03, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $07, $05, $07 ; ?
+db $22 ; ??? | Element
+dw $000F ; EXP
+db $00, $42, $1D, $1F, $29, $02 ; Moves
+db $09, $00, $03, $00 ; ?

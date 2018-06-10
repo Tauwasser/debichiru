@@ -1,11 +1,12 @@
 db "コカトリス＃＃＃"
-db $15
-db $17
-dw $00FA
-dw $0068
+db $15 ; Class | Race
+db $17 ; Level
+dw $00FA ; HP
+dw $0068 ; MP
 db $16, $14, $13, $11, $12, $11
-db $1C, $17, $1A
-db $02
-dw $00E3
-db $01, $3F, $13, $76, $30, $02
-db $48, $00, $0C, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $1C, $17, $1A ; ?
+db $02 ; ??? | Element
+dw $00E3 ; EXP
+db $01, $3F, $13, $76, $30, $02 ; Moves
+db $48, $00, $0C, $00 ; ?

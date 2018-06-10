@@ -1,11 +1,12 @@
 db "ネオフェニックス"
-db $39
-db $2D
-dw $01E4
-dw $00D2
+db $39 ; Class | Race
+db $2D ; Level
+dw $01E4 ; HP
+dw $00D2 ; MP
 db $2D, $2B, $2D, $2C, $29, $28
-db $35, $2D, $2F
-db $2C
-dw $0343
-db $08, $4F, $1F, $22, $1E, $20
-db $FF, $00, $21, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $35, $2D, $2F ; ?
+db $2C ; ??? | Element
+dw $0343 ; EXP
+db $08, $4F, $1F, $22, $1E, $20 ; Moves
+db $FF, $00, $21, $00 ; ?

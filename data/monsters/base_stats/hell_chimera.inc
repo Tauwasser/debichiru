@@ -1,11 +1,12 @@
 db "ヘルキマイラ＃＃"
-db $29
-db $1E
-dw $013D
-dw $008F
+db $29 ; Class | Race
+db $1E ; Level
+dw $013D ; HP
+dw $008F ; MP
 db $20, $1E, $19, $1A, $18, $15
-db $24, $1E, $20
-db $25
-dw $017A
-db $55, $17, $1F, $0B, $1E, $21
-db $76, $00, $10, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $24, $1E, $20 ; ?
+db $25 ; ??? | Element
+dw $017A ; EXP
+db $55, $17, $1F, $0B, $1E, $21 ; Moves
+db $76, $00, $10, $00 ; ?

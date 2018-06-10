@@ -1,11 +1,12 @@
 db "ドワーフ＃＃＃＃"
-db $23
-db $1F
-dw $0151
-dw $008A
+db $23 ; Class | Race
+db $1F ; Level
+dw $0151 ; HP
+dw $008A ; MP
 db $1D, $1B, $19, $17, $19, $19
-db $26, $1F, $22
-db $16
-dw $0194
-db $5C, $54, $23, $0D, $18, $0E
-db $7E, $00, $10, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $26, $1F, $22 ; ?
+db $16 ; ??? | Element
+dw $0194 ; EXP
+db $5C, $54, $23, $0D, $18, $0E ; Moves
+db $7E, $00, $10, $00 ; ?

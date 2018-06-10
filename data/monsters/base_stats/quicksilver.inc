@@ -1,11 +1,12 @@
 db "クイックシルバー"
-db $14
-db $1C
-dw $0122
-dw $0083
+db $14 ; Class | Race
+db $1C ; Level
+dw $0122 ; HP
+dw $0083 ; MP
 db $18, $17, $1A, $17, $19, $16
-db $22, $1C, $1E
-db $25
-dw $0153
-db $0A, $10, $25, $32, $04, $0B
-db $68, $00, $0F, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $22, $1C, $1E ; ?
+db $25 ; ??? | Element
+dw $0153 ; EXP
+db $0A, $10, $25, $32, $04, $0B ; Moves
+db $68, $00, $0F, $00 ; ?

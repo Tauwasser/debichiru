@@ -1,11 +1,12 @@
 db "カッパ＃＃＃＃＃"
-db $07
-db $1B
-dw $0127
-dw $007F
+db $07 ; Class | Race
+db $1B ; Level
+dw $0127 ; HP
+dw $007F ; MP
 db $1B, $19, $17, $15, $1A, $14
-db $21, $1B, $1D
-db $23
-dw $0134
-db $04, $11, $16, $05, $19, $08
-db $61, $00, $0E, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $21, $1B, $1D ; ?
+db $23 ; ??? | Element
+dw $0134 ; EXP
+db $04, $11, $16, $05, $19, $08 ; Moves
+db $61, $00, $0E, $00 ; ?

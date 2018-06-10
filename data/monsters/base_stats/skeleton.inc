@@ -1,11 +1,12 @@
 db "スケルトン＃＃＃"
-db $03
-db $12
-dw $00BD
-dw $0047
+db $03 ; Class | Race
+db $12 ; Level
+dw $00BD ; HP
+dw $0047 ; MP
 db $11, $0E, $0F, $0E, $0B, $0E
-db $16, $12, $14
-db $36
-dw $008A
-db $0D, $11, $13, $0E, $17, $16
-db $2E, $00, $0A, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $16, $12, $14 ; ?
+db $36 ; ??? | Element
+dw $008A ; EXP
+db $0D, $11, $13, $0E, $17, $16 ; Moves
+db $2E, $00, $0A, $00 ; ?

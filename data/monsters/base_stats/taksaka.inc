@@ -1,11 +1,12 @@
 db "タクシャカ＃＃＃"
-db $11
-db $1D
-dw $0130
-dw $0089
+db $11 ; Class | Race
+db $1D ; Level
+dw $0130 ; HP
+dw $0089 ; MP
 db $1B, $17, $19, $15, $18, $17
-db $23, $1D, $1E
-db $33
-dw $0163
-db $03, $04, $16, $1F, $05, $21
-db $6F, $00, $0F, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $23, $1D, $1E ; ?
+db $33 ; ??? | Element
+dw $0163 ; EXP
+db $03, $04, $16, $1F, $05, $21 ; Moves
+db $6F, $00, $0F, $00 ; ?

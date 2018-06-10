@@ -1,11 +1,12 @@
 db "ピクシー＃＃＃＃"
-db $03
-db $03
-dw $0030
-dw $0015
+db $03 ; Class | Race
+db $03 ; Level
+dw $0030 ; HP
+dw $0015 ; MP
 db $05, $05, $07, $06, $06, $07
-db $05, $03, $04
-db $24
-dw $0006
-db $06, $23, $1D, $1F, $0F, $07
-db $07, $00, $02, $05
+;  Atk  Def  MAtk MDef Init Luck
+db $05, $03, $04 ; ?
+db $24 ; ??? | Element
+dw $0006 ; EXP
+db $06, $23, $1D, $1F, $0F, $07 ; Moves
+db $07, $00, $02, $05 ; ?

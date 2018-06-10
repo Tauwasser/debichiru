@@ -1,11 +1,12 @@
 db "ユキンコ＃＃＃＃"
-db $06
-db $07
-dw $004F
-dw $0026
+db $06 ; Class | Race
+db $07 ; Level
+dw $004F ; HP
+dw $0026 ; MP
 db $08, $08, $0A, $07, $06, $09
-db $09, $07, $09
-db $2B
-dw $0014
-db $03, $23, $1D, $10, $15, $04
-db $0C, $00, $04, $05
+;  Atk  Def  MAtk MDef Init Luck
+db $09, $07, $09 ; ?
+db $2B ; ??? | Element
+dw $0014 ; EXP
+db $03, $23, $1D, $10, $15, $04 ; Moves
+db $0C, $00, $04, $05 ; ?

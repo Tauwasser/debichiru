@@ -1,11 +1,12 @@
 db "キュウビのキツネ"
-db $36
-db $1D
-dw $0138
-dw $0086
+db $36 ; Class | Race
+db $1D ; Level
+dw $0138 ; HP
+dw $0086 ; MP
 db $19, $18, $1D, $1A, $16, $14
-db $23, $1D, $1E
-db $1A
-dw $015E
-db $34, $17, $12, $02, $10, $01
-db $6F, $00, $0F, $00
+;  Atk  Def  MAtk MDef Init Luck
+db $23, $1D, $1E ; ?
+db $1A ; ??? | Element
+dw $015E ; EXP
+db $34, $17, $12, $02, $10, $01 ; Moves
+db $6F, $00, $0F, $00 ; ?
