@@ -342,8 +342,8 @@ IF DEF(SHIRO)
 	const MON_DUMMY338         ; 153
 	const MON_DUMMY339         ; 154
 	const MON_DUMMY340         ; 155
-	const MON_DUMMY34１         ; 156
-	const MON_DUMMY34２         ; 157
+	const MON_DUMMY341         ; 156
+	const MON_DUMMY342         ; 157
 	const MON_DUMMY343         ; 158
 	const MON_DUMMY344         ; 159
 	const MON_DUMMY345         ; 15A
@@ -352,8 +352,8 @@ IF DEF(SHIRO)
 	const MON_DUMMY348         ; 15D
 	const MON_DUMMY349         ; 15E
 	const MON_DUMMY350         ; 15F
-	const MON_DUMMY35１         ; 160
-	const MON_DUMMY35２         ; 161
+	const MON_DUMMY351         ; 160
+	const MON_DUMMY352         ; 161
 	const MON_DUMMY353         ; 162
 	const MON_DUMMY354         ; 163
 	const MON_DUMMY355         ; 164
