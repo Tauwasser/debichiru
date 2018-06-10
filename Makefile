@@ -30,7 +30,7 @@ $(foreach v, $(VERSIONS), $(eval ROMS += $v.gbc))
 $(BUILD)/kuro10/%.o: RGBASMFLAGS += -DKURO
 $(BUILD)/aka10/%.o: RGBASMFLAGS += -DAKA
 $(BUILD)/aka11/%.o: RGBASMFLAGS += -DAKA -DV11=0
-$(BUILD)/shito10/%.o: RGBASMFLAGS += -DSHIRO
+$(BUILD)/shiro10/%.o: RGBASMFLAGS += -DSHIRO
 
 kuro10.gbc: RGBFIX_FLAGS=-i BHEJ -n 0 -t "DEBITIRU B" -c
 aka10.gbc: RGBFIX_FLAGS=-i BHNJ -n 0 -t "DEBITIRU R" -c
