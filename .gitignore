@@ -3,3 +3,5 @@
 *.gbc
 *.o
 *.pyc
+build/*
+coverage.log
