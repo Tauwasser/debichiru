@@ -58,9 +58,9 @@ if __name__ == "__main__":
                 for x in range(x_line_beg, x_line_end + 1):
                     hit_data[y][x] += bpp
     
-    with open(args.statsname, 'w') as stats:
-        # TODO: write stats
-        pass
+    #with open(args.statsname, 'w') as stats:
+    #    # TODO: write stats
+    #    pass
     
     png_data = []
     for i, row in enumerate(hit_data):

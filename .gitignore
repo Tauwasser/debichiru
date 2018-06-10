@@ -4,4 +4,5 @@
 *.o
 *.pyc
 build/*
-coverage.log
+*_coverage.log
+*_coverage.png
