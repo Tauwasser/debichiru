@@ -62,7 +62,7 @@ compare: $(ROMS)
 
 .PHONY: coverage
 coverage: $(ROMS)
-	$(foreach f, $^, $(PYTHON3) tools/disasm_coverage.py -m $(f:.gbc=.map) -o $(f:.gbc=_coverage.png) -r $(f:.gbc=_base.gbc) -s $(f:.gbc=_coverage.log) -b 0x80;)
+	$(foreach f, $^, $(PYTHON3) tools/disasm_coverage.py -m $(f:.gbc=.map) -o $(f:.gbc=_coverage.png) -r $(f:.gbc=_base.gbc) -b 0x80;)
 
 .PHONY: tools
 tools tools/pkmncompress tools/gfx tools/make_shim:
