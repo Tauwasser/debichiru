@@ -48,7 +48,7 @@ all: $(ROMS)
 .PHONY: clean
 clean:
 	rm -rf $(ROMS) $(BUILD) $(ROMS:.gbc=.sym) $(ROMS:.gbc=.map) $(ROMS:.gbc=_coverage.png) $(ROMS:.gbc=_coverage.log)
-	$(MAKE) -C tools clean
+	"$(MAKE)" -C tools clean
 
 # Remove files except for graphics.
 .PHONY: mostlyclean
@@ -66,7 +66,7 @@ coverage: $(ROMS)
 
 .PHONY: tools
 tools tools/pkmncompress tools/gfx tools/make_shim:
-	$(MAKE) -C tools/
+	"$(MAKE)" -C tools/
 
 $(ROMS): %.gbc: $$(OBJS_$$*)
 	$(RGBLINK) -d -n $(@:.gbc=.sym) -m $(@:.gbc=.map) -O $*_base.gbc -o $@ $^
